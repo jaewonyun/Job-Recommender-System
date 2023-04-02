@@ -26,6 +26,8 @@ Plotly is used for creating interactive data visualizations, such as bar charts,
 - Number of jobs by location.
 - New job postings by day of the week.
 - New job postings by week and category.
+![Example image](DEskill.png)
+
 
 ## Job Recommendation System
 
@@ -35,7 +37,7 @@ The recommendation system is based on two similarity measures:
 - Modified Jaccard Similarity: Calculates the ratio of the intersection to the length of the job requirements set.
 
 The system recommends the top 20 jobs based on each similarity score, providing a personalized list of job opportunities for the candidate.
-
+![Example image](job_recommendatio_sample.png)
 ## Usage
 
 To use the project, follow these steps:
