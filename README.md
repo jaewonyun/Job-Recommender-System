@@ -13,7 +13,7 @@ This project aims to provide personalized job recommendations based on a candida
 ## Data Collection and ETL Pipeline
 
 The project collects job posting data by scraping various job websites. The ETL pipeline is built using AWS Lambda, DynamoDB, S3, and SageMaker. AWS Lambda is used for serverless computing, allowing for the periodic execution of the scraping process. The scraped data is stored in DynamoDB, while AWS S3 is used to store the raw and processed data files. SageMaker is used for hosting the pre-trained NLP model.
-![Example image](jobpostingPipeline.png)
+![Example image](./images/jobpostingPipeline.png)
 
 ## Natural Language Processing
 
@@ -27,7 +27,7 @@ Plotly is used for creating interactive data visualizations, such as bar charts,
 - Number of jobs by location.
 - New job postings by day of the week.
 - New job postings by week and category.
-![Example image](DEskill.png)
+![Example image](./images/DEskill.png)
 
 
 ## Job Recommendation System
@@ -38,8 +38,8 @@ The recommendation system is based on two similarity measures:
 - Modified Jaccard Similarity: Calculates the ratio of the intersection to the length of the job requirements set.
 
 The system recommends the top 20 jobs based on each similarity score, providing a personalized list of job opportunities for the candidate.
-![Example image](job_recommendatio_sample.png)
-![Example image](jobRecommendationChart.png)
+![Example image](./images/job_recommendatio_sample.png)
+![Example image](./images/jobRecommendationChart.png)
 
 ## Usage
 
