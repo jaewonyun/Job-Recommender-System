@@ -38,6 +38,8 @@ The recommendation system is based on two similarity measures:
 
 The system recommends the top 20 jobs based on each similarity score, providing a personalized list of job opportunities for the candidate.
 ![Example image](job_recommendatio_sample.png)
+![Example image](jobRecommendationChart.png)
+
 ## Usage
 
 To use the project, follow these steps:
