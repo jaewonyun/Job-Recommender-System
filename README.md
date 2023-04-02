@@ -1,4 +1,4 @@
-Personalized Job Recommendations using NLP and Data Analysis
+# Personalized Job Recommendations using NLP and Data Analysis
 This project aims to provide personalized job recommendations based on a candidate's resume and a dataset of job postings. The system uses Natural Language Processing (NLP) and Data Analysis techniques to compare the candidate's skills and job requirements. The project also includes data visualization to explore the job market and analyze the top skills for each job category.
 
 Table of Contents
