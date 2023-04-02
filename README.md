@@ -13,6 +13,7 @@ This project aims to provide personalized job recommendations based on a candida
 ## Data Collection and ETL Pipeline
 
 The project collects job posting data by scraping various job websites. The ETL pipeline is built using AWS Lambda, DynamoDB, S3, and SageMaker. AWS Lambda is used for serverless computing, allowing for the periodic execution of the scraping process. The scraped data is stored in DynamoDB, while AWS S3 is used to store the raw and processed data files. SageMaker is used for hosting the pre-trained NLP model.
+![Example image](jobpostingPipeline.png)
 
 ## Natural Language Processing
 
